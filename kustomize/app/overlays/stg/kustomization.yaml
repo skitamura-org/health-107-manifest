@@ -7,6 +7,6 @@ resources:
 namespace: health-107-staging
 
 images:
-- digest: sha256:085b9d73976428c1f6c2966fd6292306a6d2c60e1f6a5648fcc7b303f937f076
+- digest: sha256:f870d2efe94b46b9b70c271f873fd4bc7bceccdbe6c305413d0e09795e335638
   name: ___IMAGE_URL___@___IMAGE_DIGEST___
   newName: image-registry.openshift-image-registry.svc:5000/health-107-develop/health-107-record
